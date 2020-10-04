@@ -1,6 +1,3 @@
-# The schme of table is pretty wrong rudresh sir
-
-
 (define (lookup key table)
   (let ((record (assoc key (cdr table))))
     (if record
