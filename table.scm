@@ -1,3 +1,6 @@
+# The schme of table is pretty wrong rudresh sir
+
+
 (define (lookup key table)
   (let ((record (assoc key (cdr table))))
     (if record
@@ -13,8 +16,6 @@
     (if record
       (set-cdr! record value)
       (set-cdr! table
-
-## Below code can be made better
 
 (cons (cons key value) (cdr table))))) ’ok) ;;; maybe val would be better than ’ok
 (define (make-table)
