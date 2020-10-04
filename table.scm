@@ -14,6 +14,8 @@
       (set-cdr! record value)
       (set-cdr! table
 
+## Below code can be made better
+
 (cons (cons key value) (cdr table))))) ’ok) ;;; maybe val would be better than ’ok
 (define (make-table)
 (list ’*table*))
