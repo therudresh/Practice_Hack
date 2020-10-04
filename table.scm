@@ -1,3 +1,5 @@
+# Perfect table doesnt exixst
+
 (define (lookup key table)
   (let ((record (assoc key (cdr table))))
     (if record
